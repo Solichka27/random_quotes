@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="widget">
+        <div id="currency_status" class="disconnected">
+            🔴 Disconnected
+        </div>
+        <p>BTC?USDT: <span id="price">-</span> <span id="trend" class="disconnected">-</span></p>
+        <button onclick="connect()">Reconnected</button>
+    </div>
+
+
+    <!-- Form-->
+
+    <section id="main">
+
+        <div class="connect-generator">
+            <h1>MOTIVATE ME</h1>
+            <button id="generator">Generator Post</button>
+            <textarea id="post" rows="6" placeholder="Your generated post will appear here..."></textarea>
+            <p id="status"></p>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer>
+        <p>All-in-one place to learn code</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
